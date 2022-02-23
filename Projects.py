@@ -23,25 +23,35 @@ Create a string with the value "world!" in a new module and import it to this on
 the phrase "Hello world!" using the variable you imported from the new module
 """
 import mymodule
-mymodule.greeting("Samantha")
+
+mymodule.greeting("Hello ")
 """
 Print the phrase "Hello World" using an f string and the imported variable you used for the previous exercise
 """
-greeting_f_string = f"Hello World"
+greeting_f_string = f"Hello {mymodule}
+  print(greeting_f_string)
 """
 Create a new string variable and give it the value of your name (example: my_name = "Eric"). Then, print a greeting 
 to yourself using the string format method
 """
-
+my_name = "Samantha"
+greeting = "Hello "
+print(greeting + my_name)
 """
 Create a string with the following value: 'It is a lovely day today'. Write out six print statements that each print
 a single word from the string using string slicing
 """
-
+my_python_var = "My_variable_one"
+for word in my_python_var.split("_"):
+  for character in word:
+    if character is "a":
+      print('It is a lovely day today')
 """
 Use that same string and print the words backwards, starting from the last word, one by one
 """
-
+string_to_slice = "It is a lovely day today"
+for letter in string_to_slice[::-1]:
+    print(letter)
 """
 Create two number variables called num_one and num_two, and assign them any value that is a whole number between 1 
 and 100. Then create an if/else statement that prints True if num_one divided by num_two is a whole number, or False
