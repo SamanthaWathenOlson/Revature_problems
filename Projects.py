@@ -22,7 +22,8 @@ while x <= 10:
 Create a string with the value "world!" in a new module and import it to this one. Once you have done that, print
 the phrase "Hello world!" using the variable you imported from the new module
 """
-
+import mymodule
+mymodule.greeting("Samantha")
 """
 Print the phrase "Hello World" using an f string and the imported variable you used for the previous exercise
 """
