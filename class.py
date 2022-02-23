@@ -24,11 +24,18 @@ class SecondClass:
 Create a class whose objects have two int fields and create a single method for each field that
 returns its value
 """
-class ThirdClass:
-  def __init__(self, input_one: int, input_two:int)
-  self.input_one = input_one
-  self.input_two = input_two
 
+class ThirdClass:
+  a = 45
+  b = 30
+  
+  def __init__(self, string_one: int, integer_two:int):
+    self.string_one = string_one
+    self.integer_two = integer_two
+  
+ integer_two = a + b
+
+print(integer_two)
 """
 Create a class whose objects have two string fields and a method to get the value of each field. Create a method
 that performs string concatenation on the two fields and prints the result to the terminal. You may not directly
