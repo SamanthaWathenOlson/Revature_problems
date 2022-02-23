@@ -38,6 +38,8 @@ else:
 Create a function that will properly perform string concatenation if one or both inputs are strings, addition if both
 inputs are int, or return the the message "This function can't handle booleans" if one value is a boolean. Print the
 response to the console, adding input two to input one
+
+
 """
 © 2022 GitHub, Inc.
 Terms
