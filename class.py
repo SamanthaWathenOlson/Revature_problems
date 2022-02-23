@@ -26,7 +26,8 @@ returns its value
 """
 class ThirdClass:
   def __init__(self, input_one: int, input_two:int)
-  self.input_one = 
+  self.input_one = input_one
+  self.input_two = input_two
 
 """
 Create a class whose objects have two string fields and a method to get the value of each field. Create a method
