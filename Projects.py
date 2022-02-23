@@ -57,8 +57,22 @@ Create two number variables called num_one and num_two, and assign them any valu
 and 100. Then create an if/else statement that prints True if num_one divided by num_two is a whole number, or False
 if the numbers divided make a fraction. If you get True back change the numbers to try and get False, and vice versa
 """
-
+num_one = 20
+num_two = 30
+if num_one / num_two == int:
+  print("This is a true statement")
+else:
+  print("This is not a true statement")
+ #found a false statement, not true statement yet....
 """
 Create a loop that prints the numbers one through five a total of five times. It also needs to tell you which 
 iteration of counting the loop is currently on 
 """
+for loop in range(1, 6, 1):
+  print(loop)
+  
+string_to_slice = "1, 2, 3, 4, 5,"
+print(string_to_slice)[0:6]
+
+      
+
