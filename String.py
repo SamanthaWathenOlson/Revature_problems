@@ -24,7 +24,10 @@ print(greeting_as_follows)
 """
 Create a function that takes in a value and prints that value's type to the console
 """
-
+def my_silly_function(int_one, int_two, int_three):
+    addition_result = int_one + int_two + int_three
+    result = (my_silly_function(7, 8, 9,))
+    print(my_silly_function(7, 8, 9))
 
 """
 Create a function that is meant to add two integers together and print their sum to the console. If either input to 
