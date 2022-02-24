@@ -41,6 +41,13 @@ Create a class whose objects have two string fields and a method to get the valu
 that performs string concatenation on the two fields and prints the result to the terminal. You may not directly
 access the fields for the method that performs the string concatenation
 """
+class MySpecialClass:
+  
+  def __init__(self, my_string_var: str, my_integer_var: int)
+"""
+Create an abstract class that has an int field called object_count that is set at zero. Then create a class that 
+inherits from the abstract class and increases the value of object_count by one whenever the class is instantiated
+"""
 class FourthClass:
   
   @fourthmethod
@@ -54,13 +61,7 @@ class FourthClass:
   object_f = ClassRed()
   
   print(object_h.my_fourth_method()
-  print(object_f.my_fourth_method()
-
-"""
-Create an abstract class that has an int field called object_count that is set at zero. Then create a class that 
-inherits from the abstract class and increases the value of object_count by one whenever the class is instantiated
-"""
-
+ 
 
 """
 Create an abstract class with an abstract method. Create a second class that inherits from the abstract class that
