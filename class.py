@@ -41,7 +41,20 @@ Create a class whose objects have two string fields and a method to get the valu
 that performs string concatenation on the two fields and prints the result to the terminal. You may not directly
 access the fields for the method that performs the string concatenation
 """
-
+class FourthClass:
+  
+  @fourthmethod
+  def my_fourth_method(sefl, input_one, input_two):
+    
+  class ClassRed(FourthClass):
+      def my_fourth_method(self, input_one, input_two):
+        return str(input_one) + str(input_two)
+  
+  object_h = ClassRed()
+  object_f = ClassRed()
+  
+  print(object_h.my_fourth_method()
+  print(object_f.my_fourth_method()
 
 """
 Create an abstract class that has an int field called object_count that is set at zero. Then create a class that 
