@@ -39,6 +39,28 @@ Create a function that will properly perform string concatenation if one or both
 inputs are int, or return the the message "This function can't handle booleans" if one value is a boolean. Print the
 response to the console, adding input two to input one
 
+true = True
+
+string = "This is a string"
+string2 = " it is short."
+
+if greeting_as_follows = f"I said {string} and {string2}":
+    print(greeting_as_follows)
+
+number_one = 10
+number_two = 15
+
+if number_one + number_two == 30:
+    print("It is not the correct answer.")
+elif number_one +number_two <= 25:
+
+true = True
+string = "False"
+
+if string == True:
+    print("This is true.")
+else:
+    print("This function can not handle boolean.")
 
 """
 © 2022 GitHub, Inc.
