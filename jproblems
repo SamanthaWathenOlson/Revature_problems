@@ -1,0 +1,54 @@
+package workedProblems;
+
+import java.util.Arrays;
+
+public class String {
+    public static void main(String[] args) {
+        int[][] nums = {
+                {1, 2, 11, 3, 43, 23, 2, 55, 3245, 0, 34, 56, 78},
+                {3, 67, 32, 4, 23, 65, 78, 100, 280, 300, 44, 21},
+                {1, 2, 3, 4, 5, 7, 6, 8, 9, 10},
+                {100, 90, 80, 70, 60, 50, 40, 30, 20, 101}
+        };
+        for (int[] numbers : nums) {
+            if(sortNumbers(numbers)) {
+            }
+            
+        }
+    }
+
+    static boolean sortNumbers(int[] nums) {
+
+        return false;
+    }
+
+
+    public static void main(String[] args) {
+
+        final int[] numbers = {
+                32,
+                235,
+                24727,
+                0
+        };
+        // code goes below
+        for (int number : numbers) {
+
+        }
+    }
+
+}
+
+    public static void main(String[] args) {
+        final String[] phrases = {
+                "this is my first phrase",
+                "who let Derrek in???",
+                "I like trains",
+                "No way this works"
+        };
+        // code goes below
+        for (String phrase : phrases) {
+
+        }
+    }
+}
